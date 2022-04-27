@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Title</title>
+</head>
+<body>
+
+    <div class="form">
+        <input id="ProductName" type="text" placeholder="Название">
+        <input id="ProductPrice" type="text" placeholder="Цена">
+        <input id="ProductImage" type="file">
+        <button onclick="CreateProduct()">Добавить</button>
+    </div>
+
+    <button onclick="GetProducts('категория1')">Категория 1</button>
+    <button onclick="GetProducts('категория2')">Категория 2</button>
+    <button onclick="GetProducts('категория3')">Категория 3</button>
+
+    <div id="List"></div>
+
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
